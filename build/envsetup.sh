@@ -1,6 +1,7 @@
 function __print_extra_functions_help() {
 cat <<EOF
 Additional functions:
+- cout:            Changes directory to out.
 - repopick:        Utility to fetch changes from Gerrit.
 - aospmerge:       Utility to merge AOSP tags.
 EOF
@@ -47,6 +48,15 @@ function brunch()
         return 1
     fi
     return $?
+}
+
+function cout()
+{
+    if [  "$OUT" ]; then
+        cd $OUT
+    else
+        echo "Couldn't locate out directory.  Try setting OUT."
+    fi
 }
 
 function repopick() {

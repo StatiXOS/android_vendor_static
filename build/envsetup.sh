@@ -3,6 +3,7 @@ cat <<EOF
 Additional functions:
 - cout:            Changes directory to out.
 - repopick:        Utility to fetch changes from Gerrit.
+- sort-blobs-list: Sort proprietary-files.txt sections with LC_ALL=C.
 - aospmerge:       Utility to merge AOSP tags.
 EOF
 }
@@ -62,6 +63,11 @@ function cout()
 function repopick() {
     T=$(gettop)
     $T/vendor/statix/build/tools/repopick.py $@
+}
+
+function sort-blobs-list() {
+    T=$(gettop)
+    $T/tools/extract-utils/sort-blobs-list.py $@
 }
 
 function aospmerge()

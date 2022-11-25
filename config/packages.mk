@@ -21,6 +21,10 @@ PRODUCT_PACKAGES += \
     StatixSettings \
     WallpaperPickerGoogleRelease
 
+# BtHelper
+PRODUCT_PACKAGES += \
+    BtHelper
+
 # Camera
 PRODUCT_PACKAGES += \
     Aperture

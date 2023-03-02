@@ -12,13 +12,8 @@ BUILD_DATE := $(shell date +%Y%m%d)
 STATIX_BASE_VERSION := v7.5
 STATIX_PLATFORM_VERSION := $(PLATFORM_VERSION)
 
-# Use signing keys and don't print date & time in the final zip for official builds
 ifndef STATIX_BUILD_TYPE
     STATIX_BUILD_TYPE := UNOFFICIAL
-endif
-
-ifeq ($(STATIX_BUILD_TYPE),OFFICIAL)
-    PRODUCT_DEFAULT_DEV_CERTIFICATE := ./.keys/releasekey
 endif
 
 STATIX_VERSION := $(TARGET_PRODUCT)-$(BUILD_DATE)-$(STATIX_PLATFORM_VERSION)-$(STATIX_BASE_VERSION)-$(STATIX_BUILD_TYPE)
@@ -27,3 +22,17 @@ STATIX_VERSION := $(TARGET_PRODUCT)-$(BUILD_DATE)-$(STATIX_PLATFORM_VERSION)-$(S
 ROM_FINGERPRINT := StatiXOS/$(PLATFORM_VERSION)/$(STATIX_BUILD_TYPE)/$(BUILD_DATE)
 # Declare it's a StatiX build
 STATIX_BUILD := true
+
+# Signing
+ifeq (user,$(TARGET_BUILD_VARIANT))
+ifneq (,$(wildcard .keys/releasekey.pk8))
+PRODUCT_DEFAULT_DEV_CERTIFICATE := .keys/releasekey
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.oem_unlock_supported=1
+endif
+ifneq (,$(wildcard .keys/verity.pk8))
+PRODUCT_VERITY_SIGNING_KEY := .keys/verity
+endif
+ifneq (,$(wildcard .keys/otakey.x509.pem))
+PRODUCT_OTA_PUBLIC_KEYS := .keys/otakey.x509.pem
+endif
+endif

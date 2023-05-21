@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
     IconPackRoundedSettingsOverlay \
     IconPackRoundedSystemUIOverlay
 
+# Old 5GUC Icon for TMUS
+PRODUCT_PACKAGES += \
+    Old5GUCIcon
+
 # PermissionController
 PRODUCT_PACKAGES += \
     PermissionControllerOverlay

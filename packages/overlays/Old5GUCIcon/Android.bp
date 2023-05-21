@@ -1,0 +1,9 @@
+//
+// Copyright (C) 2025 StatiXOS
+// SPDX-License-Identifier: Apache-2.0
+//
+
+runtime_resource_overlay {
+    name: "Old5GUCIcon",
+    system_ext_specific: true,
+}

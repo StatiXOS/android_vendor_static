@@ -10,7 +10,6 @@ PRODUCT_PACKAGES += \
 
 # StatiX Packages
 PRODUCT_PACKAGES += \
-    SimpleDeviceConfig \
     StatiXOSWalls \
     QuickAccessWallet
 

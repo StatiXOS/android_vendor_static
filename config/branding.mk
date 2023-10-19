@@ -29,9 +29,6 @@ ifneq (,$(wildcard .keys/releasekey.pk8))
 PRODUCT_DEFAULT_DEV_CERTIFICATE := .keys/releasekey
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.oem_unlock_supported=1
 endif
-ifneq (,$(wildcard .keys/verity.pk8))
-PRODUCT_VERITY_SIGNING_KEY := .keys/verity
-endif
 ifneq (,$(wildcard .keys/otakey.x509.pem))
 PRODUCT_OTA_PUBLIC_KEYS := .keys/otakey.x509.pem
 endif

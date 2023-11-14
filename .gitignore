@@ -1,0 +1,2 @@
+build/target/product/security/*
+!build/target/product/security/BUILD.bazel

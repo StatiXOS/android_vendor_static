@@ -11,7 +11,6 @@ PRODUCT_PACKAGES += \
 # StatiX Packages
 PRODUCT_PACKAGES += \
     CustomDoze \
-    RepainterServicePriv \
     SimpleDeviceConfig \
     StatiXOSWalls \
     QuickAccessWallet

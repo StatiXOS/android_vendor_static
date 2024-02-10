@@ -424,6 +424,10 @@
         <item>device_personalization_services/NotificationAssistant__importance_model_type=channel_stats</item>
         <item>device_personalization_services/NotificationAssistant__importance_model_version=1</item>
         <item>device_personalization_services/NotificationAssistant__max_importance_variance=0.5</item>
+
+        <!-- Media Provider -->
+        <item>mediaprovider/cloud_media_feature_enabled=true</item>
+        <item>mediaprovider/cloud_media_enforce_provider_allowlist=false</item>
     </string-array>
 
 </resources>

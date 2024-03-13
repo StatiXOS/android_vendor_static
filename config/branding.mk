@@ -24,7 +24,7 @@ ROM_FINGERPRINT := StatiXOS/$(PLATFORM_VERSION)/$(STATIX_BUILD_TYPE)/$(BUILD_DAT
 STATIX_BUILD := true
 
 # Signing
-ifeq (user,$(TARGET_BUILD_VARIANT))
+ifneq (eng,$(TARGET_BUILD_VARIANT))
 ifneq (,$(wildcard vendor/statix/build/target/product/security/releasekey.pk8))
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/statix/build/target/product/security/releasekey
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.oem_unlock_supported=1

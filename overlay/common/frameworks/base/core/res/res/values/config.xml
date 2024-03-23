@@ -392,6 +392,12 @@
         <item>launcher/LPNH_SLOP_PERCENTAGE=71</item>
         <item>launcher/LPNH_TIMEOUT_MS=400</item>
 
+        <!-- Settings -->
+        <item>settings_ui/bt_slice_settings_enabled=true</item>
+        <item>settings_ui/bt_advanced_header_enabled=true</item>
+        <item>settings_ui/bt_near_by_suggestion_enabled=true</item>
+        <item>settings_ui/bt_le_audio_contact_sharing_enabled=true</item>
+
         <!-- System Ui -->
         <item>systemui/quick_access_wallet_enabled=true</item>
         <item>systemui/enable_screenshot_corner_flow=true</item>

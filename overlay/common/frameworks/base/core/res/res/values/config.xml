@@ -142,7 +142,7 @@
     <bool name="config_enableQrCodeScannerOnLockScreen">true</bool>
 
     <!-- Fingerprint from a certified device -->
-    <string name="config_certifiedFingerprint" translatable="false">google/husky/husky:14/AP1A.240305.019.A1/11445699:user/release-keys</string>
+    <string name="config_certifiedFingerprint" translatable="false">google/husky/husky:14/AP1A.240405.002/11480754:user/release-keys</string>
 
     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
          in hardware. -->

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <component-override package="com.android.documentsui" >
+    <component class="com.android.documentsui.LauncherActivity" enabled="false" />
+  </component-override>
+</config>

@@ -1,0 +1,11 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := stxbootanimation
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := $(BOOT_ANIMATION_RES).zip
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/media
+LOCAL_MODULE_STEM := bootanimation
+LOCAL_MODULE_SUFFIX := .zip
+include $(BUILD_PREBUILT)

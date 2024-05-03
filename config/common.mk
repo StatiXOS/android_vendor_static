@@ -4,6 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+include vendor/statix/build/core/utils.mk
 include vendor/statix/build/core/vendor/*.mk
 
 # Conditionally call QCOM makefiles

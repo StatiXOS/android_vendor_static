@@ -1,6 +1,3 @@
-# Bring in Qualcomm helper macros
-include vendor/statix/build/core/utils.mk
-
 UM_4_4_FAMILY := msm8998 sdm660
 UM_4_9_FAMILY := msm8917 msm8937 msm8952 msm8953 msm8996 sdm845
 UM_4_14_FAMILY := $(MSMNILE) $(MSMSTEPPE) $(TRINKET) $(ATOLL)

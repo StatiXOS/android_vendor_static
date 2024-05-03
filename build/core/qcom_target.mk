@@ -1,6 +1,3 @@
-# Bring in Qualcomm helper macros
-include vendor/statix/build/core/utils.mk
-
 # Set device-specific HALs into project pathmap
 define set-device-specific-path
 $(if $(USE_DEVICE_SPECIFIC_$(1)), \

@@ -17,7 +17,7 @@ ifndef STATIX_BUILD_TYPE
     STATIX_BUILD_TYPE := UNOFFICIAL
 endif
 
-ifeq ($(STATIX_BUILD_TYPE),OFFICIAL)
+ifneq ($(filter OFFICIAL UpsideDownCake UPSIDEDOWNCAKE,$(STATIX_BUILD_TYPE)),)
     PRODUCT_DEFAULT_DEV_CERTIFICATE := ./.keys/releasekey
 endif
 

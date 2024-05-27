@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+# Certified props
+PRODUCT_PACKAGES += \
+    CertifiedPropsOverlay
+
 # Fonts
 PRODUCT_PACKAGES += \
     FontDMSansOverlay \

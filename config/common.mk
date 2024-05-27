@@ -20,6 +20,9 @@ $(call inherit-product-if-exists, vendor/partner_modules/build/mainline_modules.
 else
 $(call inherit-product-if-exists, vendor/partner_modules/build/mainline_modules_flatten_apex.mk)
 endif
+# Enable certified props overlay
+PRODUCT_COPY_FILES += \
+    vendor/statix/prebuilt/etc/overlay/config-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/overlay/config/config.xml
 endif
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0

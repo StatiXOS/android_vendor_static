@@ -20,9 +20,6 @@ $(call inherit-product-if-exists, vendor/partner_modules/build/mainline_modules.
 else
 $(call inherit-product-if-exists, vendor/partner_modules/build/mainline_modules_flatten_apex.mk)
 endif
-
-PRODUCT_COPY_FILES += \
-    vendor/statix/prebuilt/etc/sysconfig/component-overrides_documentsui.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/component-overrides_documentsui.xml
 endif
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0

@@ -79,10 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/statix/prebuilt/etc/permissions/privapp-permissions-statix-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-statix-product.xml \
     vendor/statix/prebuilt/etc/permissions/privapp-permissions-statix-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-statix-se.xml
 
-# Build ID
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_DISPLAY_ID="$(BUILD_ID)-$(TARGET_BUILD_VARIANT)"
-
 # Compile SystemUI on device with `speed`.
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.systemuicompilerfilter=speed

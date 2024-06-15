@@ -12,4 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGET_RELEASE := ap1a
+TARGET_RELEASE := ap2a

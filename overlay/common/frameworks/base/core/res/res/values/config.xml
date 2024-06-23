@@ -141,9 +141,6 @@
     <!-- Whether or not to enable the lock screen entry point for the QR code scanner. -->
     <bool name="config_enableQrCodeScannerOnLockScreen">true</bool>
 
-    <!-- Fingerprint from a certified device -->
-    <string name="config_certifiedFingerprint" translatable="false">google/husky/husky:14/AP1A.240405.002/11480754:user/release-keys</string>
-
     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
@@ -159,7 +156,16 @@
     </string-array>
 
     <!-- Wallpaper cropper package. Used as the default cropper if the active launcher doesn't
-         handle wallpaper cropping.
-    -->
+         handle wallpaper cropping. -->
     <string name="config_wallpaperCropperPackage" translatable="false">com.google.android.apps.wallpaper</string>
+
+     <!-- Build properties to spoof to certain google apps -->
+     <string-array name="config_pixelProps" translatable="false">
+        <item>google</item>                                                               <!-- Build.BRAND -->
+        <item>Google</item>                                                               <!-- Build.MANUFACTURER -->
+        <item>husky</item>                                                                <!-- Build.DEVICE -->
+        <item>husky</item>                                                                <!-- Build.PRODUCT -->
+        <item>Pixel 8 Pro</item>                                                          <!-- Build.MODEL -->
+        <item>google/husky/husky:14/AP2A.240605.024/11860263:user/release-keys</item>     <!-- Build.FINGERPRINT -->
+    </string-array>
 </resources>

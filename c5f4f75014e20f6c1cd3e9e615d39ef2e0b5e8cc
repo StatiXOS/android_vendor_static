@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88cb9d63_1de17a53",
+        "filename": "packages/overlays/CertifiedPropsOverlay/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000047
+      },
+      "writtenOn": "2024-06-27T17:04:22Z",
+      "side": 1,
+      "message": "statix",
+      "revId": "c5f4f75014e20f6c1cd3e9e615d39ef2e0b5e8cc",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b434ec00_92434a46",
+        "filename": "prebuilt/etc/overlay/config-system_ext.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000047
+      },
+      "writtenOn": "2024-06-27T17:04:22Z",
+      "side": 1,
+      "message": "com.statix pls",
+      "revId": "c5f4f75014e20f6c1cd3e9e615d39ef2e0b5e8cc",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}

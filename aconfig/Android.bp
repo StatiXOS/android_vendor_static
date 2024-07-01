@@ -1,6 +1,0 @@
-aconfig_value_set {
-    name: "aconfig_value_set-statix-ap2a",
-    values: [
-        "aconfig-values-ap2a-com.android.systemui.flags-all",
-    ],
-}

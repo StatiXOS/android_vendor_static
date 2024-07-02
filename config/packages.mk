@@ -51,6 +51,6 @@ PRODUCT_PACKAGES += \
 # Charger images
 PRODUCT_PACKAGES += \
     charger_res_images \
-    product_charger_res_images
+    charger_res_images_vendor_pixel
 
 -include vendor/statix/config/overlay.mk

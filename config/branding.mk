@@ -51,3 +51,6 @@ ifneq (,$(wildcard vendor/statix/build/target/product/security/otakey.x509.pem))
 PRODUCT_OTA_PUBLIC_KEYS := vendor/statix/build/target/product/security/otakey.x509.pem
 endif
 endif
+
+# Magisk
+PRODUCT_EXTRA_RECOVERY_KEYS := vendor/statix/build/target/product/security/magisk

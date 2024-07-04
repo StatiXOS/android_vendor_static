@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be0ad86a_0b512766",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000125
+      },
+      "writtenOn": "2024-07-04T15:28:32Z",
+      "side": 1,
+      "message": "https://github.com/hentaiOS/platform_vendor_hentai/commit/ddebc8d0b62ab7911b727fcffa9edfdbf0f2af0c",
+      "revId": "b1175655ae9ebb79f5b3e781ae5eb076d41821d8",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}

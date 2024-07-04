@@ -15,6 +15,9 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Whether to enable the app battery usage list page feature. -->
+    <bool name="config_app_battery_usage_list_enabled">true</bool>
+
     <string name="config_battery_prediction_authority">com.google.android.apps.turbo.bluetooth.estimated_time_remaining</string>
     <string name="config_bluetooth_device_settings_uri">content://com.google.android.apps.wearables.maestro.companion/settings_slice?addr=%1$s</string>
     <string name="config_bt_slice_extra_intent">com.google.android.gms.nearby.discovery.EXTRA_INTENT</string>

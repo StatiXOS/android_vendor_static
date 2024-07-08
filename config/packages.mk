@@ -24,6 +24,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     BtHelper
 
+# (TMP) Pixel Themes
+PRODUCT_PACKAGES += \
+    PixelThemesStub \
+    PixelThemesStub2022_and_newer
+
 # Camera
 PRODUCT_PACKAGES += \
     Aperture

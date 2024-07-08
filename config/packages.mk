@@ -22,6 +22,11 @@ PRODUCT_PACKAGES += \
     StatixSettings \
     WallpaperPickerGoogleRelease
 
+# (TMP) Pixel Themes
+PRODUCT_PACKAGES += \
+    PixelThemesStub \
+    PixelThemesStub2022_and_newer
+
 # Camera
 PRODUCT_PACKAGES += \
     Aperture

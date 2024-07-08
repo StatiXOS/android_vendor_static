@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8c2a3b3_e278c419",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000125
+      },
+      "writtenOn": "2024-07-08T16:08:37Z",
+      "side": 1,
+      "message": "Move to StatixSettings",
+      "revId": "76a7ab98643ec56fcbbaad8bd8a83b02087e08d6",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}

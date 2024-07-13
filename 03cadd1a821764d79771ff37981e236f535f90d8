@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e88b63d0_94c7bb22",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000122
+      },
+      "writtenOn": "2024-07-13T12:31:22Z",
+      "side": 1,
+      "message": "Selecting the prompt works but still can\u0027t generate wallpapers",
+      "revId": "03cadd1a821764d79771ff37981e236f535f90d8",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}

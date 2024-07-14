@@ -55,4 +55,6 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     charger_res_images_vendor_pixel
 
+$(call inherit-product, packages/apps/Plugins/plugins.mk)
+
 -include vendor/statix/config/overlay.mk

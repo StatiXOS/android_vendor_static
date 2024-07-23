@@ -9,7 +9,7 @@ include vendor/statix/build/core/vendor/*.mk
 
 # Conditionally call QCOM makefiles
 ifeq ($(PRODUCT_USES_QCOM_HARDWARE), true)
-include vendor/statix/build/core/ProductConfigQcom.mk
+include hardware/qcom-caf/common/ProductConfigQcom.mk
 endif
 
 # Define some properties for GMS

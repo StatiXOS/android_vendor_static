@@ -175,14 +175,24 @@
         <!-- ART heap compaction for cached apps -->
         <item>activity_manager/use_compaction=true</item>
 
+        <!-- Enable app aspect ratio -->
+        <item>window_manager/enable_app_compat_aspect_ratio_user_settings=true</item>
+        <item>window_manager/enable_app_compat_user_aspect_ratio_fullscreen=true</item>
+
+        <!-- Enable shared connectivity -->
+        <item>wifi/shared_connectivity_enabled=true</item>
+
         <!-- Enable smart actions in the clipboard overlay -->
         <item>systemui/clipboard_overlay_show_actions=true</item>
 
         <!-- Globally enable the new photo picker -->
         <item>storage_native_boot/take_over_get_content=true</item>
 
-        <!-- Enable protected by android banner -->
+        <!-- Privacy -->
+        <item>privacy/permissions_hub_2_enabled=true</item>
+        <item>privacy/permissions_hub_enabled=true</item>
         <item>privacy/safety_protection_enabled=true</item>
+        <item>privacy/warning_banner_enabled=true</item>
 
         <!--
             Device Personalization Services (AiAi)
@@ -215,8 +225,10 @@
         <!-- Now Playing (Pixel 2017+) -->
         <item>device_personalization_services/NowPlaying__ambient_music_apk_music_detector_min_score=0.2</item>
         <item>device_personalization_services/NowPlaying__ambient_music_get_model_state_cooldown_seconds_cloud_search=9</item>
-        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=252:https://storage.googleapis.com/music-iq-db/updatable_ytm_db/20230625-030030/manifest.json</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_handle_results_with_search=true</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=2586:https://storage.googleapis.com/music-iq-db/updatable_ytm_db/20240721-030041/manifest.json</item>
         <item>device_personalization_services/NowPlaying__ambient_music_matcher_match_threshold_17_09_02=-2.0</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_notification_show_assistant_text=true</item>
         <item>device_personalization_services/NowPlaying__ambient_music_on_demand_enabled=true</item>
         <item>device_personalization_services/NowPlaying__ambient_music_on_demand_music_confidence=0.48</item>
         <item>device_personalization_services/NowPlaying__cloud_api_allowed=true</item>
@@ -228,7 +240,7 @@
         <item>device_personalization_services/NowPlaying__handle_ambient_music_results_with_history=true</item>
         <item>device_personalization_services/NowPlaying__min_training_interval_millis=86400000</item>
         <item>device_personalization_services/NowPlaying__nnfp_v3_model_enabled=false</item>
-        <item>device_personalization_services/NowPlaying__on_demand_enable_eager_prompt=false</item>
+        <item>device_personalization_services/NowPlaying__on_demand_enable_eager_prompt=true</item>
         <item>device_personalization_services/NowPlaying__on_demand_fingerprinter_being_setup_warning=true</item>
         <item>device_personalization_services/NowPlaying__on_demand_hide_if_fingerprinter_install_not_confirmed=true</item>
         <item>device_personalization_services/NowPlaying__on_demand_min_supported_aga_version=12.35.17</item>
@@ -327,8 +339,10 @@
         <item>device_personalization_services/Echo_smartspace__enable_hotel_smartspace_aiai=true</item>
         <item>device_personalization_services/Echo_smartspace__smartspace_enable_daily_forecast=true</item>
         <item>device_personalization_services/Echo_smartspace__smartspace_enable_timely_reminder=true</item>
+        <item>device_personalization_services/EchoSmartspace__doorbell_when_for_update_time=true</item>
         <item>device_personalization_services/EchoSmartspace__enable_agsa_settings_read=true</item>
         <item>device_personalization_services/EchoSmartspace__enable_cross_feature_rank_dedup_twiddler=true</item>
+        <item>device_personalization_services/EchoSmartspace__enable_dimensional_logging=true</item>
         <item>device_personalization_services/EchoSmartspace__enable_encode_subcard_into_smartspace_target_id=true</item>
         <item>device_personalization_services/EchoSmartspace__enable_fitbit_notifications=true</item>
         <item>device_personalization_services/EchoSmartspace__enable_flight_landing_smartspace_aiai=true</item>
@@ -337,8 +351,11 @@
         <item>device_personalization_services/EchoSmartspace__enable_optin_bedtime_adjustment_provider=true</item>
         <item>device_personalization_services/EchoSmartspace__enable_predictor_expiration=true</item>
         <item>device_personalization_services/EchoSmartspace__enable_ring_channels_regex=true</item>
+        <item>device_personalization_services/EchoSmartspace__enable_travel_features_type_merge=true</item>
         <item>device_personalization_services/EchoSmartspace__enable_weather_data_extras=true</item>
-        <item>device_personalization_services/EchoSmartspace__runtastic_check_pause_action=true</item>
+        <item>device_personalization_services/EchoSmartspace__ring_channels_regex=4_ding_channel_notification\d+</item>
+        <item>device_personalization_services/EchoSmartspace__ring_lockscreen_delay_seconds=0</item>
+        <item>device_personalization_services/EchoSmartspace__ring_on_aod_only=true</item>
         <item>device_personalization_services/EchoSmartspace__smartspace_enable_cross_device_alarm=true</item>
         <item>device_personalization_services/EchoSmartspace__smartspace_enable_daily_forecast=true</item>
         <item>device_personalization_services/EchoSmartspace__smartspace_enable_timely_reminder=true</item>
@@ -355,6 +372,14 @@
         <item>device_personalization_services/Translate__differentiate_simplified_and_traditional_chinese=true</item>
         <item>device_personalization_services/Translate__disable_session_state=false</item>
         <item>device_personalization_services/Translate__disable_translate_without_system_animation=true</item>
+        <item>device_personalization_services/Translate__enable_chronicle_migration=true</item>
+        <item>device_personalization_services/Translate__enable_default_langid_model=false</item>
+        <item>device_personalization_services/Translate__enable_dictionary_langid_detection=true</item>
+        <item>device_personalization_services/Translate__enable_language_profile_quick_update=false</item>
+        <item>device_personalization_services/Translate__enable_nextdoor=false</item>
+        <item>device_personalization_services/Translate__enable_opmv4_service=false</item>
+        <item>device_personalization_services/Translate__enable_spa_setting=false</item>
+        <item>device_personalization_services/Translate__replace_auto_translate_copied_text_enabled=true</item>
         <item>device_personalization_services/Translate__translation_service_enabled=true</item>
         <item>device_personalization_services/Translate__translator_expiration_enabled=true</item>
         <item>device_personalization_services/Translate__use_translate_kit_streaming_api=false</item>
@@ -375,11 +400,18 @@
         <item>device_personalization_services/Overview__min_lens_agsa_app_version=301084649</item>
 
         <!-- Pixel Launcher -->
+        <item>launcher/enable_keyboard_transition_sync=true</item>
+        <item>launcher/ENABLE_LOCAL_RECOMMENDED_WIDGETS_FILTER=true</item>
         <item>launcher/ENABLE_SMARTSPACE_ENHANCED=true</item>
         <item>launcher/ENABLE_QUICK_LAUNCH_V2=true</item>
         <item>launcher/GBOARD_UPDATE_ENTER_KEY=true</item>
+        <item>launcher/enable_quick_search=true</item>
         <item>launcher/enable_one_search=true</item>
         <item>launcher/enable_quick_launch_v2=true</item>
+        <item>launcher/enable_rich_answer=true</item>
+        <item>launcher/ENABLE_SEARCH_HAPTIC_HINT=true</item>
+        <item>launcher/enable_web_suggest_on_default_browser=true</item>
+        <item>launcher/ENABLE_WIDGETS_PICKER_AIAI_SEARCH=true</item>
         <item>launcher/long_press_home_button_to_search=true</item>
         <item>launcher/long_press_home_button_to_search_mpr=true</item>
         <item>launcher/press_hold_nav_handle_to_search=true</item>
@@ -391,6 +423,10 @@
         <item>launcher/INVOKE_OMNI_LPH_MPR=true</item>
         <item>launcher/LPNH_SLOP_PERCENTAGE=71</item>
         <item>launcher/LPNH_TIMEOUT_MS=400</item>
+        <item>launcher/show_search_educard_qsb=true</item>
+        <item>launcher/show_three_dot_menu_qsb=true</item>
+        <item>launcher/use_app_search_for_web=true</item>
+        <item>launcher/use_fallback_app_search=true</item>
 
         <!-- Settings -->
         <item>settings_ui/bt_slice_settings_enabled=true</item>
@@ -404,6 +440,7 @@
         <item>systemui/enable_screenshot_notification_smart_actions=true</item>
         <item>systemui/enable_screenshot_scrolling=true</item>
         <item>systemui/volume_separate_notification=true</item>
+        <item>systemui/tap_to_edit=true</item>
 
         <!-- Gboard -->
         <item>device_personalization_services/SmartRecPixelSearch__enable_gboard_suggestion=true</item>
@@ -422,14 +459,14 @@
         <item>device_personalization_services/SmartDictation__enable_selection_filtering=true</item>
 
         <!-- Notifications Assistant -->
-        <item>notification_assistant/generate_actions=true</item>
-        <item>notification_assistant/generate_replies=true</item>
         <item>device_personalization_services/NotificationAssistant__enable_service=true</item>
         <item>device_personalization_services/NotificationAssistant__enable_upgrade_importance=true</item>
         <item>device_personalization_services/NotificationAssistant__importance_model_download_url=https://www.gstatic.com/android/notifications/importance/v1/manifest.json</item>
         <item>device_personalization_services/NotificationAssistant__importance_model_type=channel_stats</item>
         <item>device_personalization_services/NotificationAssistant__importance_model_version=1</item>
         <item>device_personalization_services/NotificationAssistant__max_importance_variance=0.5</item>
+        <item>notification_assistant/generate_actions=true</item>
+        <item>notification_assistant/generate_replies=true</item>
 
         <!-- Media Provider -->
         <item>mediaprovider/cloud_media_feature_enabled=true</item>

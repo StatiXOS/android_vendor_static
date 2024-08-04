@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "838651ba_4f01fd40",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2024-08-04T17:43:28Z",
+      "side": 1,
+      "message": "Waiting for approval from a good majority of the team since this will render our A11 icon pack defunct.",
+      "revId": "317cb0d5e5219315220ac5233141cdcd59dd97db",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}

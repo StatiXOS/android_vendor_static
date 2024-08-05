@@ -19,7 +19,6 @@ PRODUCT_PACKAGES += \
     StatixSystemUI \
     StatixSettings \
     ThemePicker
-#   WallpaperPickerGoogleRelease
 
 # BtHelper
 PRODUCT_PACKAGES += \

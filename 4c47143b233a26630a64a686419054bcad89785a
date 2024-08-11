@@ -16,6 +16,23 @@
       "message": "i\u0027d rather not merge this, since the icons are very much unfinished. if the icons are still not enabled in A15, i\u0027d be more comfortable enabling them then. i also don\u0027t want to change our feature set right now, so if this breaks icon packs, i\u0027d hold off on this.",
       "revId": "4c47143b233a26630a64a686419054bcad89785a",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f3c4d82_92072291",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2024-08-11T17:51:22Z",
+      "side": 1,
+      "message": "Remains as pick-only for now",
+      "revId": "4c47143b233a26630a64a686419054bcad89785a",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }

@@ -18,9 +18,9 @@
       -->
       <item>BRAND:google</item>
       <item>MANUFACTURER:Google</item>
-      <item>MODEL:Pixel</item>
-      <item>PRODUCT:sailfish</item>
-      <item>DEVICE:sailfish</item>
-      <item>FINGERPRINT:google/sailfish/sailfish:8.1.0/OPM1.171019.011/4448085:user/release-keys</item>
+      <item>MODEL:Pixel 8 Pro</item>
+      <item>PRODUCT:husky_beta</item>
+      <item>DEVICE:husky</item>
+      <item>FINGERPRINT:google/husky_beta/husky:15/AP31.240617.015/12207491:user/release-keys</item>
     </string-array>
 </resources>

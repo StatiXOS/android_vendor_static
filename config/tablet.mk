@@ -11,3 +11,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Settings
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.settings.large_screen_opt.enabled=true
+
+# Setup Wizard
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.setupwizard.rotation_locked=false

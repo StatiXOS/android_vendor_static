@@ -21,7 +21,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/statix_x86_64.mk
 
 COMMON_LUNCH_CHOICES := \
-    statix_arm-ap2a-userdebug \
-    statix_arm64-ap2a-userdebug \
-    statix_x86-ap2a-userdebug \
-    statix_x86_64-ap2a-userdebug
+    statix_arm-userdebug \
+    statix_arm64-userdebug \
+    statix_x86-userdebug \
+    statix_x86_64-userdebug

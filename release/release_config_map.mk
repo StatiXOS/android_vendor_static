@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGET_RELEASE := ap2a
+TARGET_RELEASE := ap3a
 
 # Get the directory for this file, and use that instead of a fixed path.
 local_dir := $(dir $(lastword $(MAKEFILE_LIST)))

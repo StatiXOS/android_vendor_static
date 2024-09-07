@@ -165,4 +165,7 @@ ifeq ($(USE_NQ_NFC),true)
     PRODUCT_SOONG_NAMESPACES += vendor/nxp/opensource
 endif
 
+# Add wlan to PRODUCT_SOONG_NAMESPACES
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/wlan
+
 include vendor/statix/build/core/qcom_target.mk

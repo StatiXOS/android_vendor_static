@@ -18,3 +18,101 @@ flag_value {
   state: ENABLED
   permission: READ_ONLY
 }
+
+flag_value {
+  package: "com.android.systemui"
+  name: "scene_container"
+  state: ENABLED
+  permission: READ_ONLY
+}
+
+flag_value {
+  package: "com.android.systemui"
+  name: "compose_lockscreen"
+  state: ENABLED
+  permission: READ_ONLY
+}
+
+flag_value {
+  package: "com.android.systemui"
+  name: "keyguard_bottom_area_refactor"
+  state: ENABLED
+  permission: READ_ONLY
+}
+
+flag_value {
+  package: "com.android.systemui"
+  name: "keyguard_wm_state_refactor"
+  state: ENABLED
+  permission: READ_ONLY
+}
+
+flag_value {
+  package: "com.android.systemui"
+  name: "media_in_scene_container"
+  state: ENABLED
+  permission: READ_ONLY
+}
+
+flag_value {
+  package: "com.android.systemui"
+  name: "migrate_clocks_to_blueprint"
+  state: ENABLED
+  permission: READ_ONLY
+}
+
+flag_value {
+  package: "com.android.systemui"
+  name: "notifications_heads_up_refactor"
+  state: ENABLED
+  permission: READ_ONLY
+}
+
+flag_value {
+  package: "com.android.systemui"
+  name: "predictive_back_sysui"
+  state: ENABLED
+  permission: READ_ONLY
+}
+
+flag_value {
+  package: "com.android.systemui"
+  name: "device_entry_udfps_refactor"
+  state: ENABLED
+  permission: READ_ONLY
+}
+
+flag_value {
+  package: "com.android.systemui"
+  name: "glanceable_hub_fullscreen_swipe"
+  state: DISABLED
+  permission: READ_ONLY
+}
+
+flag_value {
+  package: "com.android.systemui"
+  name: "glanceable_hub_shortcut_button"
+  state: DISABLED
+  permission: READ_ONLY
+}
+
+flag_value {
+  package: "com.android.systemui"
+  name: "glanceable_hub_gesture_handle"
+  state: DISABLED
+  permission: READ_ONLY
+}
+
+flag_value {
+  package: "com.android.systemui"
+  name: "glanceable_hub_allow_keyguard_when_dreaming"
+  state: DISABLED
+  permission: READ_ONLY
+}
+
+flag_value {
+  package: "com.android.systemui"
+  name: "dual_shade"
+  state: ENABLED
+  permission: READ_ONLY
+}

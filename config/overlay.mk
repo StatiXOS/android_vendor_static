@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
     IconPackRoundedSettingsOverlay \
     IconPackRoundedSystemUIOverlay
 
+# PermissionController
+PRODUCT_PACKAGES += \
+    PermissionControllerOverlay
+
 # Pixel Launcher
 ifeq ($(INCLUDE_PIXEL_LAUNCHER),true)
 PRODUCT_PACKAGES += \

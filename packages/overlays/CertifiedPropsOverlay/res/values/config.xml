@@ -18,9 +18,9 @@
       -->
       <item>BRAND:google</item>
       <item>MANUFACTURER:Google</item>
-      <item>MODEL:Pixel 9 Pro</item>
-      <item>PRODUCT:caiman</item>
-      <item>DEVICE:caiman</item>
-      <item>FINGERPRINT:google/caiman/caiman:14/AD1A.240530.047.U1/12150698:user/release-keys</item>
+      <item>MODEL:Pixel 9 Pro XL</item>
+      <item>PRODUCT:komodo_beta</item>
+      <item>DEVICE:komodo</item>
+      <item>FINGERPRINT:google/komodo_beta/komodo:15/AP31.240617.015/12207491:user/release-keys</item>
     </string-array>
 </resources>

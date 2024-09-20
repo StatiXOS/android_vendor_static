@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9327064_4f4ca222",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000125
+      },
+      "writtenOn": "2024-09-20T00:57:10Z",
+      "side": 1,
+      "message": "Move to vic",
+      "revId": "3b2ecaf4eba7c9c86f28f51f0a23dc5a1bac27b7",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}

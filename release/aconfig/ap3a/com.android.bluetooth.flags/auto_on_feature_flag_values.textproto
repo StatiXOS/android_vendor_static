@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "auto_on_feature"
+  state: ENABLED
+  permission: READ_ONLY
+}

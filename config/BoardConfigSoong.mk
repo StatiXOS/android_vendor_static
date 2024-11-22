@@ -1,6 +1,5 @@
 SOONG_CONFIG_NAMESPACES += statixGlobalVars
 SOONG_CONFIG_statixGlobalVars += \
-    aapt_version_code \
     additional_gralloc_10_usage_bits \
     bootloader_message_offset \
     target_health_charging_control_charging_path \
@@ -52,7 +51,6 @@ TARGET_QTI_VIBRATOR_EFFECT_LIB ?= libqtivibratoreffect
 TARGET_SURFACEFLINGER_UDFPS_LIB ?= surfaceflinger_udfps_lib
 
 # Soong value variables
-SOONG_CONFIG_statixGlobalVars_aapt_version_code := $(shell date -u +%Y%m%d)
 SOONG_CONFIG_statixGlobalVars_additional_gralloc_10_usage_bits := $(TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS)
 SOONG_CONFIG_statixGlobalVars_bootloader_message_offset := $(BOOTLOADER_MESSAGE_OFFSET)
 SOONG_CONFIG_statixGlobalVars_target_init_vendor_lib := $(TARGET_INIT_VENDOR_LIB)

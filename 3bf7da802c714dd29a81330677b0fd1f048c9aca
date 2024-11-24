@@ -16,6 +16,23 @@
       "message": "Put this on hold",
       "revId": "3bf7da802c714dd29a81330677b0fd1f048c9aca",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6690690_efd9aa0b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2024-11-24T01:27:11Z",
+      "side": 1,
+      "message": "I am fine with this with the fix for th GMS fragments in.",
+      "revId": "3bf7da802c714dd29a81330677b0fd1f048c9aca",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }

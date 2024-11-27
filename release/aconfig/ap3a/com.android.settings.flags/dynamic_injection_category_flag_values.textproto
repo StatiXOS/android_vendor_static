@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "dynamic_injection_category"
+  state: ENABLED
+  permission: READ_WRITE
+}

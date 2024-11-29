@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d8113614_78a4eb2f",
+        "filename": "release/aconfig/ap3a/com.android.settings.flags/dynamic_injection_category_flag_values.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-29T14:11:59Z",
+      "side": 1,
+      "message": "READ_ONLY",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 24
+      },
+      "revId": "5539b731319e1e701c222be5be3e2bbfd6c809cc",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1d4f1400_8fcf767f",
+        "filename": "config/BoardConfigSoong.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1000125
+      },
+      "writtenOn": "2024-12-09T15:18:04Z",
+      "side": 1,
+      "message": "Perhaps TARGET_POWERSHARE_PATH is a better name (and also easier for migration from lineage HIDL).\n```suggestion\nSOONG_CONFIG_statixGlobalVars_target_powershare_node :\u003d $(TARGET_POWERSHARE_PATH)\n```",
+      "range": {
+        "startLine": 72,
+        "startChar": 58,
+        "endLine": 72,
+        "endChar": 80
+      },
+      "revId": "bf8a1eb26832804dba1958cacbd1399bc68f4245",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}

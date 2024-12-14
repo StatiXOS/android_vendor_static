@@ -18,9 +18,9 @@
       -->
       <item>BRAND:google</item>
       <item>MANUFACTURER:Google</item>
-      <item>MODEL:Pixel 8a</item>
-      <item>PRODUCT:akita_beta</item>
-      <item>DEVICE:akita</item>
-      <item>FINGERPRINT:google/akita_beta/akita:15/AP41.240925.009/12534705:user/release-keys</item>
+      <item>Pixel 6</item>
+      <item>PRODUCT:oriole_beta</item>
+      <item>DEVICE:oriole</item>
+      <item>FINGERPRINT:google/oriole_beta/oriole:15/BP11.241121.013/12873528:user/release-keys</item>
     </string-array>
 </resources>

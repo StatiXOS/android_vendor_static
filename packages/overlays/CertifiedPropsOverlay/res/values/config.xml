@@ -18,9 +18,9 @@
       -->
       <item>BRAND:google</item>
       <item>MANUFACTURER:Google</item>
-      <item>MODEL:Pixel 8a</item>
-      <item>PRODUCT:akita_beta</item>
-      <item>DEVICE:akita</item>
-      <item>FINGERPRINT:google/akita_beta/akita:15/AP41.240925.009/12534705:user/release-keys</item>
+      <item>MODEL:Pixel 9 Pro Fold</item>
+      <item>PRODUCT:comet_beta</item>
+      <item>DEVICE:comet</item>
+      <item>FINGERPRINT:google/comet_beta/comet:15/BP11.241025.006/12620009:user/release-keys</item>
     </string-array>
 </resources>

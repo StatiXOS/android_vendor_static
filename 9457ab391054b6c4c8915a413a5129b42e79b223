@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c36b533f_567082c2",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1000125
+      },
+      "writtenOn": "2025-01-20T12:17:20Z",
+      "side": 0,
+      "message": "My bad",
+      "range": {
+        "startLine": 101,
+        "startChar": 0,
+        "endLine": 105,
+        "endChar": 28
+      },
+      "revId": "9457ab391054b6c4c8915a413a5129b42e79b223",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}

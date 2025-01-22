@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9bdad96_f184ee56",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000125
+      },
+      "writtenOn": "2025-01-22T20:24:08Z",
+      "side": 1,
+      "message": "Don\u0027t merge, we should move these definitions to hardware/qcom-caf/common first.",
+      "revId": "e8d8fa51a1f32973a24d3448722a2640a99c3a21",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}

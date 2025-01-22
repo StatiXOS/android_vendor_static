@@ -14,6 +14,60 @@ BOARD_USES_ADRENO := true
 # Vibrator HAL
 $(call soong_config_set, vibrator, vibratortargets, vibratoraidlV2target)
 
+# Add qtiaudio to soong config namespaces
+SOONG_CONFIG_NAMESPACES += qtiaudio
+
+# Add supported variables to qtiaudio config
+SOONG_CONFIG_qtiaudio += \
+    feature_ext_amplifier \
+    feature_extended_compress_format \
+    feature_gef_support \
+    feature_gki \
+    feature_hal_v7 \
+    feature_instance_id \
+    feature_sound_trigger
+
+# Set default values for qtiaudio config
+SOONG_CONFIG_qtiaudio_feature_ext_amplifier ?= false
+SOONG_CONFIG_qtiaudio_feature_extended_compress_format ?= false
+SOONG_CONFIG_qtiaudio_feature_gef_support ?= false
+SOONG_CONFIG_qtiaudio_feature_gki ?= false
+SOONG_CONFIG_qtiaudio_feature_hal_v7 ?= false
+SOONG_CONFIG_qtiaudio_feature_instance_id ?= false
+SOONG_CONFIG_qtiaudio_feature_sound_trigger ?= false
+
+ifeq ($(AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER),true)
+    SOONG_CONFIG_qtiaudio_feature_ext_amplifier := true
+endif
+
+ifeq ($(AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT),true)
+    SOONG_CONFIG_qtiaudio_feature_extended_compress_format := true
+endif
+
+ifeq ($(AUDIO_FEATURE_ENABLED_GEF_SUPPORT),true)
+    SOONG_CONFIG_qtiaudio_feature_gef_support := true
+endif
+
+ifeq ($(AUDIO_FEATURE_ENABLED_GKI),true)
+    SOONG_CONFIG_qtiaudio_feature_gki := true
+endif
+
+ifeq ($(AUDIO_FEATURE_ENABLED_HAL_V7), true)
+    SOONG_CONFIG_qtiaudio_feature_hal_v7 := true
+endif
+
+ifeq ($(AUDIO_FEATURE_ENABLED_INSTANCE_ID),true)
+    SOONG_CONFIG_qtiaudio_feature_instance_id := true
+endif
+
+ifeq ($(BOARD_SUPPORTS_SOUND_TRIGGER),true)
+    SOONG_CONFIG_qtiaudio_feature_sound_trigger := true
+endif
+
+ifeq ($(BOARD_SUPPORTS_SOUND_TRIGGER_HAL),true)
+    SOONG_CONFIG_qtiaudio_feature_sound_trigger := true
+endif
+
 # Add qtidisplay to soong config namespaces
 SOONG_CONFIG_NAMESPACES += qtidisplay
 

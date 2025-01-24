@@ -428,6 +428,8 @@
         <item>launcher/show_three_dot_menu_qsb=true</item>
         <item>launcher/use_app_search_for_web=true</item>
         <item>launcher/use_fallback_app_search=true</item>
+        <item>launcher/ANIMATE_LPNH=true</item>
+        <item>launcher/SHRINK_NAV_HANDLE_ON_PRESS=true</item>
 
         <!-- Settings -->
         <item>settings_ui/bt_slice_settings_enabled=true</item>

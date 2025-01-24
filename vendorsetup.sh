@@ -22,3 +22,7 @@ echo -e "\n- Finally, push any changes to our Gerrit if you think they're worthw
 echo -e "  https://github.com/StatiXOS/android_manifest?tab=readme-ov-file#submitting-patches"
 
 echo -e "\nDon't forget to join https://t.me/StatiXOSReleases! Enjoy! :D"
+
+# Override host metadata to make builds more reproducible and avoid leaking info
+export BUILD_USERNAME=nobody
+export BUILD_HOSTNAME=android-build

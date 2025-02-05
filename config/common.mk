@@ -45,7 +45,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
     ro.com.android.dateformat=MM-dd-yyyy \
     persist.sys.disable_rescue=true \
-    ro.build.selinux=1
+    ro.build.selinux=1 \
+    persist.sys.spoof.gms=true
 
 # Conditionally enable blur
 ifeq ($(TARGET_USES_BLUR), true)

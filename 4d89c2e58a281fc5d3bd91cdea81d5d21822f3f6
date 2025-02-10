@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "399095c5_f384f855",
+        "filename": "packages/overlays/Old5GUCIcon/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000125
+      },
+      "writtenOn": "2025-02-10T07:14:02Z",
+      "side": 1,
+      "message": "Fix the copyright header",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 2
+      },
+      "revId": "4d89c2e58a281fc5d3bd91cdea81d5d21822f3f6",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
